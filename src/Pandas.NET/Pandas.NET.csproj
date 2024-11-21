@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <RootNamespace>PandasNet</RootNamespace>
+    <Version>0.6.0</Version>
+    <LangVersion>10.0</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Haiping Chen</Authors>
+    <Company>SciSharp STACK</Company>
+    <Copyright>Apache 2.0</Copyright>
+    <PackageLicenseUrl>LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/SciSharp</PackageProjectUrl>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/44989469?s=200&amp;v=4</PackageIconUrl>
+    <RepositoryUrl>https://github.com/SciSharp/Pandas.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Pandas</PackageTags>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+</Project>

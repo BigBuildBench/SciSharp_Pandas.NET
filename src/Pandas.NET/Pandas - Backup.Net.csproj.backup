@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
+    <RootNamespace>PandasNet</RootNamespace>
+    <Version>0.3.0</Version>
+    <LangVersion>9.0</LangVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Haiping Chen</Authors>
+    <Company>SciSharp STACK</Company>
+    <Copyright>Apache 2.0</Copyright>
+    <PackageLicenseUrl>LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/SciSharp</PackageProjectUrl>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/44989469?s=200&amp;v=4</PackageIconUrl>
+    <RepositoryUrl>https://github.com/SciSharp/Pandas.NET</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Pandas</PackageTags>
+    <UserSecretsId>a0de1a80-b5db-4270-a191-01beeef4427b</UserSecretsId>
+    <AssemblyVersion>0.3.0.0</AssemblyVersion>
+    <FileVersion>0.3.0.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="TensorFlow.NET" Version="0.100.1" />
+  </ItemGroup>
+
+</Project>
